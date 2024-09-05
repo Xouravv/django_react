@@ -1,0 +1,117 @@
+/* General styles for the Notes component */
+div {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the notes list */
+h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Styles for individual notes */
+.note {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.note h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #222;
+}
+
+.note p {
+    margin: 10px 0 0;
+    color: #555;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* Note container styling */
+.Note_container {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.note-title {
+    margin: 0;
+    font-size: 1.25em;
+    color: #333;
+}
+
+/* Content styling */
+.note-content {
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Date styling */
+.note-date {
+    margin: 0;
+    font-size: 0.85em;
+    color: #888;
+}
+
+/* Delete button styling */
+.note-delete-btn {
+    margin-top: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.875em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.note-delete-btn:hover {
+    background-color: #c82333;
+}
